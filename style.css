@@ -400,12 +400,386 @@ footer .socials{
 }
 button:active{
    transform: scale(0.8)
-}
-@media only screen and (max-width: 470px){
+}@media only screen and (max-width: 470px){
+
+   nav{
+
+      width: 470px;
+
+      height: 40px;
+
+   }
+
+   nav button{
+
+      margin-top: 5px; 
+
+      padding: 5px 5px 20px 5px;
+
+      height: auto;
+
+   }
+
    .menu-list {
+
       display: none;
+
    }
+
    .mobile-menu-list{
+
       display: flex;
+
+      flex: wrap;
+
+      padding: 0 10px;
+
    }
+
+   .header-top{
+
+      width: 470px;
+
+      padding: 40px 30px;
+
+      font-size: 0.6em;
+
+   }
+
+   .header-about{
+
+      width: 470px;
+
+      display: block;
+
+      padding: 30px 5px;
+
+      text-align: center;
+
+   }
+
+   .about-img{
+
+      width: 80%;
+
+      margin: auto;
+
+   }
+
+   .about-img img{
+
+      width: 100%;
+
+   }
+
+   .about-text{
+
+      width: 100%;
+
+   }
+
+   .about-more{
+
+      width: 50%;
+
+      margin: auto;
+
+   }
+
+   .header-products{
+
+      width: 470px;
+
+   }
+
+   .products-cards{
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 20px;
+
+   }
+
+   .products-card{
+
+      width: 45%;
+
+   }
+
+   .products-text {
+
+      width: 80%;
+
+      margin: auto;
+
+   }
+
+   .store{
+
+      display: block;
+
+      width: 470px;
+
+   }
+
+   .store-cards{
+
+      display: block;
+
+   }
+
+   .store-card {
+
+      width: 80%;
+
+      margin: auto;
+
+      margin-top: 20px;
+
+      background: no-repeat
+
+   }
+
+   .store-more{
+
+      width: 80%;
+
+   }
+
+   .river{
+
+      width: 470px;
+
+      height: 200px;
+
+   }
+
+   .river-card{
+
+      width: 100%;
+
+      right: 0;
+
+      bottom: -160px;
+
+      font-size: 0.5em;
+
+   }
+
+   .shop{
+
+      width: 470px;
+
+   }
+
+   .shop p{
+
+      width: 80%;
+
+      margin: auto;
+
+   }
+
+   .offer{
+
+      width: 470px;
+
+      padding: 30px 5px;
+
+   }
+
+   .offer-top{
+
+      padding: 20px 20px;
+
+   }
+
+   .offer-cards{
+
+      display: block;
+
+   }
+
+   .offer-card{
+
+      width: 90%;
+
+      margin: auto;
+
+   }
+
+   .offer-card img:nth-child(1){
+
+      width: 85%;
+
+      margin: auto;
+
+   }
+
+   .offer p{
+
+      width: 70%!important;
+
+   }
+
+   .card-bottom{
+
+      width: 80%;
+
+      position: relative;
+
+      left: -50px;
+
+      margin: auto;
+
+      padding: 10px 0!important;
+
+      justify-content: space-between;      font-size: 0.7em;
+
+   }
+
+   .card-bottom p{
+
+      position: relative;
+
+      right:-160px;
+
+   }
+
+   .card-bottom img{
+
+      margin-left: 10px;
+
+      margin-top: 5px;
+
+      height: 80%;
+
+      width: 50px!important;
+
+      
+
+   }
+
+   .bottom-text{
+
+      padding-top: 5px;
+
+   }
+
+   .magazine{
+
+      width: 470px;
+
+      display: block;
+
+      padding: 40px 10px;
+
+   }
+
+   .magazine img{
+
+      width: 90%;
+
+      margin: auto;
+
+   }
+
+   .magazine-text{
+
+      padding: 15px;
+
+      width: 80%;
+
+      text-align: center;
+
+      margin: auto;
+
+   }
+
+   .magazine-more{
+
+      width: 50%
+
+   }
+
+   .magazine-more img{
+
+      width: 20%;
+
+      position: relative; 
+
+      top: 0;
+
+   }
+
+   footer{
+
+      width: 470px;
+
+      padding: 30px 20px;
+
+   }
+
+   .footer-logo{
+
+      width: 5%;
+
+      margin: auto;
+
+   }
+
+   .footer-lists{
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+   }
+
+   .footer-list{
+
+      width: 30%;
+
+   }
+
+   .footer-list:nth-child(4)  {
+
+      width: 85%;
+
+      margin: auto;
+
+   }
+
+   footer input{
+
+      width: 100%;
+
+   }
+
+   footer button{
+
+      position: relative;
+
+      top: -44px;
+
+      right: -280px;
+
+   }
+
+   .rights  {
+
+      padding: 10px 15px;
+
+   }
+
+   .socials{
+
+      width: 50%;
+
+      margin: auto;
+
+   }
+
 }
